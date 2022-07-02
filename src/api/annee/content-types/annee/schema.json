@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "annees",
+  "info": {
+    "singularName": "annee",
+    "pluralName": "annees",
+    "displayName": "annee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "libelle": {
+      "type": "integer"
+    },
+    "recettes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::recette.recette",
+      "mappedBy": "annee"
+    }
+  }
+}

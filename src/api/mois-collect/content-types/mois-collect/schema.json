@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mois_collects",
+  "info": {
+    "singularName": "mois-collect",
+    "pluralName": "mois-collects",
+    "displayName": "mois_collect",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mois": {
+      "type": "string"
+    },
+    "recettes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::recette.recette",
+      "mappedBy": "mois_collect"
+    }
+  }
+}

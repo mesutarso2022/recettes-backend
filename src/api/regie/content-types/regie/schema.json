@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "regies",
+  "info": {
+    "singularName": "regie",
+    "pluralName": "regies",
+    "displayName": "regie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Initial": {
+      "type": "string"
+    },
+    "nom": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "recettes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::recette.recette",
+      "mappedBy": "regie"
+    }
+  }
+}

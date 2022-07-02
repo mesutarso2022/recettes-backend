@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recettes",
+  "info": {
+    "singularName": "recette",
+    "pluralName": "recettes",
+    "displayName": "recette"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Montant": {
+      "type": "float"
+    },
+    "type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::type.type",
+      "inversedBy": "recettes"
+    },
+    "regie": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::regie.regie",
+      "inversedBy": "recettes"
+    },
+    "annee": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::annee.annee",
+      "inversedBy": "recettes"
+    },
+    "mois_collect": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::mois-collect.mois-collect",
+      "inversedBy": "recettes"
+    }
+  }
+}
