@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dgi_juridictionnels",
+  "info": {
+    "singularName": "dgi-juridictionnel",
+    "pluralName": "dgi-juridictionnels",
+    "displayName": "dgi-juridictionnel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numero": {
+      "type": "string"
+    },
+    "raison_sociale": {
+      "type": "string"
+    },
+    "nif": {
+      "type": "string"
+    },
+    "secteur_activite": {
+      "type": "string"
+    },
+    "references_dossier": {
+      "type": "string"
+    },
+    "date_changement_phase": {
+      "type": "string"
+    },
+    "montant_conteste": {
+      "type": "string"
+    },
+    "devise": {
+      "type": "string"
+    },
+    "juridiction": {
+      "type": "string"
+    },
+    "cabinet_avocat": {
+      "type": "string"
+    },
+    "observation": {
+      "type": "string"
+    },
+    "numero_contentieux_assiette": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "date_decision": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dgrad_administratifs",
+  "info": {
+    "singularName": "dgrad-administratif",
+    "pluralName": "dgrad-administratifs",
+    "displayName": "dgda-administratif",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numero": {
+      "type": "string"
+    },
+    "numero_dajc": {
+      "type": "string"
+    },
+    "date_enregistrement_dajc": {
+      "type": "string"
+    },
+    "date_dajc": {
+      "type": "string"
+    },
+    "service_instruction": {
+      "type": "string"
+    },
+    "date_pv": {
+      "type": "string"
+    },
+    "reference_pv": {
+      "type": "string"
+    },
+    "matiere": {
+      "type": "string"
+    },
+    "secteur": {
+      "type": "string"
+    },
+    "commissionnaire_en_douane": {
+      "type": "string"
+    },
+    "numero_agrement": {
+      "type": "string"
+    },
+    "nif": {
+      "type": "string"
+    },
+    "responsable_autre_commissionaire": {
+      "type": "string"
+    },
+    "nif_responsable": {
+      "type": "string"
+    },
+    "nature_infraction": {
+      "type": "string"
+    },
+    "devise": {
+      "type": "string"
+    },
+    "droit_taxes_estimes": {
+      "type": "string"
+    },
+    "montant_amande_propose": {
+      "type": "string"
+    },
+    "nature_amande": {
+      "type": "string"
+    },
+    "droit_taxes_arrete": {
+      "type": "string"
+    },
+    "montant_amande_transige": {
+      "type": "string"
+    },
+    "niveau_instruction": {
+      "type": "string"
+    },
+    "date_dernier_acte_pose": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "string"
+    },
+    "date_changement": {
+      "type": "string"
+    },
+    "juridiction": {
+      "type": "string"
+    },
+    "cabinet_avocat": {
+      "type": "string"
+    },
+    "reference_dossier_en_justice": {
+      "type": "string"
+    }
+  }
+}

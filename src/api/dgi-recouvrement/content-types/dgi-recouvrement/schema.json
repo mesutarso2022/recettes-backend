@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dgi_recouvrements",
+  "info": {
+    "singularName": "dgi-recouvrement",
+    "pluralName": "dgi-recouvrements",
+    "displayName": "dgi-recouvrement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numero": {
+      "type": "string"
+    },
+    "raison_sociale": {
+      "type": "string"
+    },
+    "nif": {
+      "type": "string"
+    },
+    "secteur_activite": {
+      "type": "string"
+    },
+    "motif": {
+      "type": "string"
+    },
+    "date_assignation": {
+      "type": "string"
+    },
+    "references_dossier": {
+      "type": "string"
+    },
+    "montant_arma": {
+      "type": "string"
+    },
+    "montant_amrb": {
+      "type": "string"
+    },
+    "montant_total": {
+      "type": "string"
+    },
+    "devise": {
+      "type": "string"
+    },
+    "cabinet_avocat": {
+      "type": "string"
+    },
+    "juridiction": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "date_decision": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "string"
+    }
+  }
+}
